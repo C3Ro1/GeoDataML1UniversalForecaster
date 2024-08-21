@@ -16,6 +16,7 @@ attrs==23.2.0
 Babel==2.15.0
 beautifulsoup4==4.12.3
 bleach==6.1.0
+Cartopy==0.23.0
 certifi==2024.2.2
 cffi==1.16.0
 charset-normalizer==3.3.2
@@ -126,6 +127,8 @@ pydantic_core==2.20.1
 Pygments==2.18.0
 pykan==0.0.3
 pyparsing==3.1.2
+pyproj==3.6.1
+pyshp==2.3.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.0
 python-json-logger==2.0.7
@@ -148,6 +151,7 @@ scikit-learn==1.4.2
 scipy==1.11.4
 seaborn==0.13.2
 Send2Trash==1.8.3
+shapely==2.0.6
 six==1.16.0
 sniffio==1.3.1
 soupsieve==2.5
@@ -175,7 +179,7 @@ typeguard==2.13.3
 types-python-dateutil==2.9.0.20240316
 typing_extensions==4.11.0
 tzdata==2024.1
--e git+https://github.com/SalesforceAIResearch/uni2ts.git@27616d912b632fc77731b207e0b74970bed5870b#egg=uni2ts
+-e git+https://github.com/SalesforceAIResearch/uni2ts.git@e819c93c95cde897a65f07a03fa359c95893e61c#egg=uni2ts
 uri-template==1.3.0
 urllib3==2.2.1
 wcwidth==0.2.13
@@ -185,5 +189,6 @@ websocket-client==1.8.0
 Werkzeug==3.0.3
 widgetsnbextension==4.0.10
 wrapt==1.16.0
+xarray==2024.7.0
 xxhash==3.5.0
 yarl==1.9.4
