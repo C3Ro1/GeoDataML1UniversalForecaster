@@ -6,6 +6,7 @@ __pycache__/
 # C extensions
 *.so
 /uni2ts
+*.csv
 # Distribution / packaging
 .Python
 build/
